@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><i>Thank you for your time in helping us to improve more</i></p>
+  <form method="post" id="survey-form">
+    <feildset>
+      <label for="name"id="name-label">Name<input id="name" name="name" type="text" placeholder="enter your name" required></label><br>
+      <label for="email" id="email-label">Email <input id="email" name="email" type="email" placeholder="enter your email" required></label><br>
+      <label for="occupation">Profession <input id="occupation=label" name="occupation" type="text"></label><br>
+     <label for="age" id="number-label">Age <input id="number" name="age" class="age" type="number" min="4" max="99" placeholder="enter your age" ></label>
+    </fieldset>
+    <fieldset>
+      <label for="level" class="level"> Would you like to recommend freeCodeCamp to your friends?</label><br>
+     <input id="level-1" type="radio" name="level-1" class="level" value="beginner"/> Yes<br>
+     <input id="level-1" type="radio" name="level-1" class="level" value="intermediate"/> No<br>
+     <input id="level-1" type="radio" name="level-1" class="level" value="intermediate"/> Maybe<br>
+    </fieldset>
+    <fieldset>
+      <label for="reason">What is your favorite feature in freeCodeCamp? <select id="dropdown" name="reason" 
+        <option value="">(select one)</option>
+        <option value="1">Tutorials</option>
+        <option value="2">Projects</option>
+        <option value="3">Certifications</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="reason">What would you like to improve us on?<br><em>(Check all that apply.)</em></label> 
+       <label><input type="checkbox" name="content" id="content" value="content" class="inline" />Content in Guides</label> 
+       <label><input type="checkbox" name="FP" id="FP" value="Frontend projects" class="inline" />Front-End projects</label>
+       <label><input type="checkbox" name="BD" id="BD" value="Reading" class="inline" />Backend projects</label>
+       <label><input type="checkbox" name="Challenges" id="Challenges" value="Challlenges" class="inline" />Daily Challenges</label>
+    </fieldset>
+    <fieldset>
+      <label
+        for="interests">What are your interests?<em> Provide 3 </em> <input id="interests-label" name="interests" class="interests" required></label>
+    <label for="additional information">Additional Information <textarea>If there is any other information you would like to share please write it here.</textarea></label>
+    </fieldset>
+    <fieldset>
+      <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" value="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions.</a>
+        </label>
+      </fieldset>
+      <button>
+      <input id="submit" type="submit" value="Submit"/>
+      </button>
+    </form>
+  </body>
+</html>
