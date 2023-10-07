@@ -1,0 +1,94 @@
+body {
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 1rem;
+background-color: darkblue;
+color: aqua;
+font-family: Tahoma;
+font-size: 16px;
+}
+
+h1 {
+margin: 0.5em auto;
+text-align: center;
+color: yellow;
+text-shadow: 1px 1px white;
+}
+
+p {
+margin: 0.5em auto;
+text-align: center;
+color:#D0ECE7
+}
+
+form {
+width: 60vw;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+fieldset {
+border: none;
+padding: 1rem 0;
+border-bottom: 3px solid #3b3b4f;
+}
+
+label {
+display: block;
+margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+margin: 5px 0 0 0;
+width: 100%;
+min-height: 1em;
+}
+
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+cursor: pointer;
+}
+
+.age {
+width: 35%;
+}
+
+.level {
+width: unset;
+margin: 0 0.5em 0 0;
+cursor: pointer;
+}
+
+.interests {
+min-height: 5em;
+}
+
+input, textarea, dropdown {
+background-color: #E8F6F3;
+border: 1px solid #D0ECE7;
+color: #212F3D;
+}
+
+input[type=“submit”] {
+display: block;
+width: 25%;
+height: 2em;
+font-size: 1rem;
+background-color: #73C6B6;
+border-color: #16A085;
+min-width: 300px;
+color: white;
+border-radius: 5px;
+}
+
+input[type=“submit”]:hover {
+background-color: #A569BD;
+color: white;
+}
